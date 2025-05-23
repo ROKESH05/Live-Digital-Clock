@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.clock-container {
+  background: #2d2d44;
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.time {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.date, .day {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+  .clock-container {
+    padding: 20px 30px;
+  }
+
+  .time {
+    font-size: 2.5rem;
+  }
+
+  .date, .day {
+    font-size: 1.2rem;
+  }
+}
