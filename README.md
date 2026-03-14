@@ -1,0 +1,1 @@
+Digital Clock is a simple web-based application that displays the current time in real time using a digital format. It updates automatically every second and provides a clear, user-friendly interface. The project demonstrates the use of HTML, CSS, and JavaScript to create dynamic and interactive web functionality.
